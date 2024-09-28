@@ -1,0 +1,104 @@
+/* Change background color and text color */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Change link colors */
+a {
+    color: #3498db;
+}
+
+a:hover {
+    color: #2c3e50;
+}
+
+
+.btn {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3498db;
+}
+
+/* Navbar background */
+.md-header {
+    background-color: #aa1f1f; /* Set your desired background color */
+}
+
+/* Navbar text color */
+.md-header__title, .md-header__nav a {
+    color: white; /* Text color for the title and links */
+}
+
+/* Navbar link hover color */
+.md-header__nav a:hover {
+    color: #f39c12; /* Change the color when hovering over links */
+}
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2.4rem;
+    width: 4.4rem;
+}
+
+/* Modernize the sidebar background */
+.md-nav__title {
+    display: none;
+
+}
+.md-nav {
+    font-size: 0.9rem; /* adjust the font size to your liking */
+  }
+
+
+/* Custom styles for the primary sidebar */
+.md-sidebar--primary {
+    width: 200px; /* Fixed width for the sidebar */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+/* Styles to make the sidebar responsive */
+@media (max-width: 768px) {
+    .md-sidebar--primary {
+        width: 100px; /* Adjusted width for smaller screens */
+    }
+}
+
+/* Optional: Add a shadow or other effects on scroll */
+.md-sidebar--primary {
+    box-shadow: none
+}
+
+/* Progressive bar effect (optional) */
+.md-sidebar--primary .md-nav__link {
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.md-sidebar--primary .md-nav__link:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Highlight on hover */
+}
+
+/* Active link (selected) styling */
+.md-sidebar--primary .md-nav__link--active {
+ /* Light red color for active link */
+    font-weight: bold; /* Bold font for active link */
+}
+
+
+.md-footer {
+    background-color: white;
+    color: black;
+}
+.md-footer-meta {
+    background-color: black;
+}
+
+

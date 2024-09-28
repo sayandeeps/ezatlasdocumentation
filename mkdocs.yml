@@ -1,0 +1,27 @@
+site_name: Buyer Product Manual
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  logo: "images/logo.png"
+  features:
+    - navigation.expand
+    - navigation.path
+    - navigation.footer
+  font:
+    text: Roboto
+plugins:
+  - search
+  - awesome-pages
+
+nav:
+  - index.md
+  - Login to System:
+      - Login to System/Login as Buyer.md
+  - Change Language:
+      - Change Language/Change Language.md
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2020 ezatlas
