@@ -1,11 +1,12 @@
-site_name: Buyer Product Manual
+site_name: Product Manual
 extra_css:
   - stylesheets/extra.css
+
 theme:
   name: material
   logo: "images/logo.png"
+  favicon: images/favicon.ico
   features:
-    - navigation.expand
     - navigation.path
     - navigation.footer
   font:
@@ -13,6 +14,9 @@ theme:
 plugins:
   - search
   - awesome-pages
+  - encryptcontent:
+      global_password: ""
+      tag_encrypted_pages: false
 
 nav:
   - index.md
@@ -20,8 +24,40 @@ nav:
       - Login to System/Login as Buyer.md
   - Change Language:
       - Change Language/Change Language.md
+  - Buyer:
+      - SR Request:
+          - Create New SR Request:
+              - CreateSr/newsr.md
+              - CreateSr/lineitems.md
+          - Approval of SR Request:
+              - ApprovalSr/approval.md
+      - Sourcing Project:
+          - Sourcing Project/Sourcingevenet.md
+      - Request For Proposal:
+          - Creation of RFP:
+              - Request For Proposal/RFQ.md
+          - Launch of RFP:
+              - Request For Proposal/RFQL.md
+              - Request For Proposal/modirfq.md
+          - Response Summary:
+              - Request For Proposal/responsesummary.md
+          - Commercial Evaluation:
+              - Request For Proposal/commercialevaluation.md
+          - Technical Evaluation:
+              - Request For Proposal/techeval.md
+          - Sanction Request:
+              - Request For Proposal/Sanctionreq.md
+          - Approval:
+              - Request For Proposal/Approval.md
+          - Auction:
+              - Auction/Auction.md
+              - Auction/Auction1.md
+  - Supplier:
+      - Supplier/s1.md
+      - Supplier/SubmitRFP.md
+      - Supplier/auction.md
 
 extra:
   generator: false
 
-copyright: Copyright &copy; 2020 ezatlas
+copyright: Copyright &copy; 2024 ezatlas

@@ -31,7 +31,7 @@ a:hover {
 
 /* Navbar background */
 .md-header {
-    background-color: #aa1f1f; /* Set your desired background color */
+    background-color: #3f97ea; /* Set your desired background color */
 }
 
 /* Navbar text color */
@@ -54,13 +54,13 @@ a:hover {
 
 }
 .md-nav {
-    font-size: 0.9rem; /* adjust the font size to your liking */
+    font-size: 0.7rem; /* adjust the font size to your liking */
   }
 
 
 /* Custom styles for the primary sidebar */
 .md-sidebar--primary {
-    width: 200px; /* Fixed width for the sidebar */
+    width: 300px; /* Fixed width for the sidebar */
     transition: width 0.3s ease; /* Smooth transition */
 }
 

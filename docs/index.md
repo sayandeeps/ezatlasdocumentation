@@ -3,9 +3,8 @@
 Welcome to P2P ERP Software User Manual
 
 ## **Sections**
-- [Getting Started](getting-started/introduction.md)
-- [User Guide](user-guide/overview.md)
-- [API Reference](api/api-overview.md)
+- [Buyer](Sourcing%20Project/Sourcingevenet.md)
+- [Supplier](Supplier/s1.md)
 
 ## **What is P2P ERP software?**
 

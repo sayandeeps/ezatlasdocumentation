@@ -8,4 +8,4 @@ Please use the credentials provided to login as Buyer in ezatlas
 ## Result : Dashboard
 Upon Successful login you will be redirected to our Buyer Dashboard
 
-![Intro](../images/dashboard.png)
+![alt text](screencapture-ezatlas-org-ezview-index-html-2024-09-30-06_53_28.png)
