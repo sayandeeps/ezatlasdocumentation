@@ -8,7 +8,7 @@ WORKDIR /
 COPY . .
 
 # Install MkDocs and required plugins
-RUN pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocs-with-pdf
+RUN pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin
 
 
 # Expose the port MkDocs will run on
