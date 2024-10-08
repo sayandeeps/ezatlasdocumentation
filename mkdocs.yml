@@ -14,9 +14,7 @@ theme:
 plugins:
   - search
   - awesome-pages
-  - encryptcontent:
-      global_password: ""
-      tag_encrypted_pages: false
+
 
 nav:
   - index.md
